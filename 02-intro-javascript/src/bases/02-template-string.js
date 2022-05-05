@@ -1,14 +1,13 @@
-//console.log('Hello World');
 
 const nombreUsuario = "Juan";
 const apellidoUsuario = "Perez";
 
-const nombreCompleto = `
+const presentacion = `
 ${getSaludo()} me llamo ${nombreUsuario} ${apellidoUsuario} 
 y tengo ${getEdad()} años
 
 `;
-console.log(nombreCompleto);
+console.log(presentacion);
 
 function getSaludo() {
   return "Hola";
